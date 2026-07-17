@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Index</title>
+  </head>
+  <body>
+    
+
+
+    <!-- navbar -->
+<header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+        Bazaar
+      </a>
+
+      <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+        <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
+        <li><a href="#" class="nav-link px-2 link-dark">Products</a></li>
+        <li><a href="#" class="nav-link px-2 link-dark">Gallery</a></li>
+        <li><a href="#" class="nav-link px-2 link-dark">About</a></li>
+        <li><a href="#" class="nav-link px-2 link-dark">Contact</a></li>
+      </ul>
+
+      <div id="loginbtn" class="col-md-3 text-end">
+        <a  href="login.html" class="btn btn-outline-primary me-2">Login</a>
+        <a id="registerbtn" href="register.html" class="btn btn-outline-primary me-2">Sign-up</a>
+      </div>
+      <div id="logoutbtn" class="col-md-3 text-end">
+             <a onclick="Logout()"  href="#" class="btn btn-danger">Logout</a>
+      </div>
+      
+    </header>
+
+        <!-- navbar -->
+
+
+
+
+        <!-- Slider -->
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/slider1.avif" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/slider2.avif" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/sldier3.avif" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- Slider -->
+
+
+
+<!-- Category Section  -->
+
+
+<div class="container mt-3 shadow">
+  <div class="row">
+    <div class="col-12">
+        <h1 class="text-center text-danger">Category Listing</h1>
+    </div>
+  </div>
+</div>
+
+
+<div class="container mt-3">
+<div class="row" id="CategoryListing">
+
+</div>
+</div>
+
+
+
+<!-- Product Section -->
+
+<div class="container mt-3 shadow">
+  <div class="row">
+    <div class="col-12">
+        <h1 class="text-center text-danger">Product Listing</h1>
+    </div>
+  </div>
+</div>
+
+
+<div class="container mt-3">
+<div class="row" id="productListing">
+
+</div>
+</div>
+
+
+
+<!-- Product Section -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+
+
+
+    <script src="app.js"></script>
+    
+  </body>
+</html>
